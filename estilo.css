@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-main-one: #1B1B1B;
+    --color-main-two: #FFFFFF;
+    --color-main-tree: ;
+}
+body{
+    color: #1b1b1b;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.inicioSite{
+    animation: 2s animPag forwards;
+}
+nav{
+    width: 82%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+    align-items: center;
+}
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: var(--color-main-one);
+    transition: .3s;
+}
+.home a{
+    display: flex;
+    align-items: center;
+}
+.home, .download{
+    transition: .3s;
+}
+.home:hover, .download:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.download-now{
+    transition: .5s;
+}
+.download:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.logo{
+    font-size: 48px;
+}
+.conteudo1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    gap: 50px;
+}
+/* .col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+} */
+.col1 h1{
+    font-size: 48px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+.col1 p{
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+.col2 i{
+    font-size: 500px;
+    transition: .5s;
+}
+.col2 i:hover{
+    transform: scale(1.2);
+    transition: .3s;
+    cursor: pointer;
+}
+.conteudo1 button{
+    border: 2px solid var(--color-main-one);
+    background: transparent;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    font-size: 18px;
+    padding: 15px 25px;
+    font-family: 'Roboto', sans-serif;
+    transition: .7s;
+}
+.conteudo1 button:hover{
+    border: 2px solid var(--color-main-one);
+    background-color: var(--color-main-one);
+    color: #FFF1D5;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: .3s;
+    display: inline-block;
+}
+.text1{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    margin-top: 90px;
+}
+.video1{
+    width: 65%;
+    margin: auto;
+}
+.conteudo2{
+    background-color: #29185B;
+    color: #FFF1D5;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.cont2-texts{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    ;
+    padding-bottom: 80px;
+}
+.conteudo-text{
+    text-align: center;
+    width: 400px;
+}
+.conteudo-text-titulo{
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.conteudo-text-descrip{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.conteudo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-main-one);
+    color: #FFF1D5;
+    padding: 100px;
+}
+.conteudo3 p{
+    font-size: 48px;
+    text-align: center;
+}
+.conteudo3 button{
+    border: none;
+    background-color: #FFF1D5;
+    border-radius: 20px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.conteudo3 button:hover{
+    border: none;
+    background-color: #ddd5ff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.colunas{
+    display: flex;
+}
+.col-esq{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.col-dir{
+    max-width: 50%;
+}
+.col-esq-title{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.col-esq-title2{
+    font-size: 40px;
+}
+.col-esq-text1{
+    font-size: 22px;
+}
+.col-esq-textos2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.contato{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.contato-p1{
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 60px;
+}
+.contato-p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.contato-texto2{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contato a{
+    color: #29185B;
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: var(--color-main-two);
+    background-color: var(--color-main-one) ;
+    font-family: 'Roboto', sans-serif;
+}
+.colunas-2{
+    display: flex;
+    
+}
+.col-esq-1{
+    max-width: 50%;
+}
+.col-esq-2{
+    max-width: 50%;
+}
+.col-dir-2{
+    background-color: #FEFEFE;
+    padding: 50px 0 50px 50px;
+    max-width: 50%;
+}
+.col-dir-title{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.parceiros-logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+.balao{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    font-size: 70px;
+    background-color:  rgb(0, 85, 255);
+    border-radius: 1000px;
+    padding: 10px 10px 0 10px;
+    cursor: pointer;
+    transition: .5s;
+    
+    box-shadow: 2px 2px 5px black;
+}
+.balao:hover{
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    font-size: 70px;
+    background-color: rgb(0, 81, 255);
+    border-radius: 100px;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .3s;
+    
+}
+.balao a{
+    color: black;
+}
+
+@keyframes animPag {
+    0%{
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.parc-logo{
+    cursor: pointer;
+    transition: .4s;
+}
+.parc-logo:hover{
+    transform: scale(1.2);
+    transition: .2s;
+}
